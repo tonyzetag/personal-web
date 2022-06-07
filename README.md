@@ -8,7 +8,7 @@
 
 # Background
 - I have a 1st cycle degree (Bachelor's degree Technical Telecommunications Engineer in Sound and Image)
-- I also finished a 9-month bootcamp (intensive tech course) of IA, Big Data and Machine Learning.
+- I also finished a 9-month bootcamp (intensive tech course) of AI, Big Data and Machine Learning.
 
 # How to reach me?
 - Currently, the best option is on my [linkedin's profile](https://www.linkedin.com/in/tonyzetag/)
