@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jose Antonio - Página personal</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/vars.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <nav class="navbar">
+        <input id="menu-btn-input" type="checkbox" name="menu-btn-input"/>
+        <div class="logo">Tony<span>zetag</span></div>
+        <div class="menu-btn">
+            <span class="top"></span>
+            <span class="mid"></span>
+            <span class="bot"></span>
+        </div>
+        <ul class="navbar-list">
+            <label for="menu-btn-input"></label>
+            <li class="navbar-item"><a href="#home">Inicio</a></li>
+            <li class="navbar-item"><a href="#about">Sobre mi</a></li>
+            <li class="navbar-item"><a href="#skills">Servicios</a></li>
+            <li class="navbar-item"><a href="#portfolio">Proyectos</a></li>
+            <li class="navbar-item"><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+    <header>
+        <div id="home" class="header-overlay"></div>
+        <div class="header-content">
+            <img src="https://avatars.githubusercontent.com/u/12579155?v=4" alt="Foto personal">
+            <div class="hello">
+                <p>¡Hola!</p>
+                <p>Soy <span>Jose Antonio Zúñiga</span></p>
+                <div id="jobs">
+                    <p>Big Data Jobs</p> 
+                    <ul class="jobs-list">
+                        <li class="jobs-item">Data Engineer</li>
+                        <li class="jobs-item">Data Scientist</li>
+                        <li class="jobs-item">Data Analytics</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="about">
+            <div class="description">
+                <h2>¿Quien soy yo?</h2>
+                <p>
+                    Soy Jose Antonio Zúñiga García, Graduado en Ingeniería de Sonido e Imagen,
+                    rama de la Ingeniería Técnica de Telecomunicaciones en la UMA,
+                    también soy ex-alumno de Bootcamp Fullstack en Inteligencia Artificial, 
+                    Big Data y Machine Learning - Keepcoding.
+                </p>
+                <p>
+                    Me apasionan las ciencias en general, tengo buen conocimiento en todo lo relativo
+                    al sector del Big Data, sobre todo como ingeniero o científico de datos,
+                    además tengo buen nivel como desarrollador, por otra parte
+                    me encanta trabajar en equipo y actualmente estoy buscando mi primer
+                    empleo para poder consolidar lo aprendido y desarrollarme de forma profesional
+                </p>
+                <button type="button" onclick='window.open("https://drive.google.com/file/d/1HbF0_wj20oyM2Z6gq_udC5X5U1clJtl0/view?usp=sharing")'>
+                    CV
+                    <img src="./images/logos original size/pdf.png" width="17px" height="auto" alt="CV">
+                </button>
+            </div>
+            <div class="achievements">
+                <h2>Logros</h2>
+                <div class="achievements-contains">
+                    <div class="div-full-stack">
+                        <h3>FullStack</h3>
+                        <ul class="course-list-full-stack">
+                            <li class="course-item">Curso de desarrollo Web con HTML5 y CSS</li>
+                            <li class="course-item">Curso de JavaScript + Node.js + Express + MongoDB</li>
+                            <li class="course-item">Curso de JavaScript desde Cero</li>
+                        </ul>
+                    </div>
+                    <div class="div-big-data">
+                        <h3>Big Data</h3>
+                        <ul class="course-list-big-data">
+                            <li class="course-item">Curso Apache Nifi - Flujo de datos, pipelines y procesos ETL</li>
+                            <li class="course-item">Curso completo de programación en Python 2022</li>
+                            <li class="course-item">Curso BBDD relacionales, SQL & MySQL</li>
+                        </ul>
+                    </div>
+                    <div class="div-developer">
+                        <h3>Developer</h3>
+                        <ul class="courses-list-developer">
+                            <li class="course-item">Curso Desarrollo de Apps Android para digitalización de empresas</li>
+                            <li class="course-item">Curso Docker desde Cero</li>
+                            <li class="course-item">Curso Git, GitHub & SourceTree</li>
+                        </ul>
+                    </div>
+                    <div class="div-others">
+                        <h3>Otros</h3>
+                        <ul class="courses-list-others">
+                            <li class="course-item">Ganador Hackathon #HackTheSystem</li>
+                            <li class="course-item">Matrícula de honor en Programación II (C++)</li>
+                            <li class="course-item">Matrícula de honor en Bases de datos (Java + OracleDB)</li>
+                        </ul>
+                    </div>
+                </div> 
+            </div>
+        </section>
+        <section id="skills">
+            <div class="data-jobs">
+                <h2>Habilidades</h2>
+                <div class="data-jobs-contain">
+                    <div class="data-ingenieer">
+                        <h3>Como ingeniero de datos</h3>
+                        <p>Tratamiento de datos, análisis exploratorio, limpieza de datos, diseño, construcción, orden, etc.  </p>
+                        <ul class="data-engineer-list">
+                            <li><img src="./images/logos original size/Python_logo_icon.png" alt="Python"> <p>Python</p> </li>
+                            <li><img src="./images/logos original size/cpp_logo.png" alt="C++"><p>C++</p></li>
+                            <li><img src="./images/logos original size/Apache_Spark_logo.svg.png" alt="Spark"><p>Spark</p></li>
+                            <li><img src="./images/logos original size/postgresql-logo.png" alt="PostgreSQL"><p>PostgreSQL</p></li>
+                            <li><img src="./images/logos original size/mongodb.png" alt="MongoDB"><p>MongoDB</p></li>
+                            <li><img src="./images/logos original size/Hadoop_Logo.png" alt="Hadoop"><p>Hadoop</p></li>
+                        </ul>
+                    </div>
+                    <div class="data-scientist">
+                        <h3>Como científico de datos</h3>
+                        <p>Manejo de datos, entrenamientos, predicciones, modelos de Machine-Learning, Deep-Learning, etc. </p>
+                        <ul class="data-scientist-list">
+                            <li><img src="./images/logos original size/Python_logo_icon.png" alt="Python"> <p>Python</p> </li>
+                            <li><img src="./images/logos original size/Keras.png" alt="Keras"> <p>Keras</p></li>
+                            <li><img src="./images/logos original size/tensorflow.png" alt="Tensorflow"> <p>Tensorflow</p></li>
+                            <li><img src="./images/logos original size/R.png" alt="R"> <p>R</p></li>
+                            <li><img src="./images/logos original size/1200px-Jupyter_logo.svg.png" alt="Jupyter"> <p>Jupyter</p></li>
+                            <li><img src="./images/logos original size/sklearn.png" alt="Sklearn"> <p>Sklearn</p></li>
+
+                        </ul>
+                    </div>
+                    <div class="data-analytics">
+                        <h3>Como analista de datos</h3>
+                        <p>Análisis y presentación de resultados, creación de Dashboards, visualización de datos web, etc.</p>
+                        <ul class="data-analytics-list">
+                            <li><img src="./images/logos original size/matplotlib-logo.png" alt="Matplotlib"> <p>Matplotlib</p> </li>
+                            <li><img src="./images/logos original size/seaborn logo.png" alt="Seaborn"> <p>Seaborn</p> </li>
+                            <li><img src="./images/logos original size/tableau_icon.png" alt="Tableau"> <p>Tableau</p> </li>
+                            <li><img src="./images/logos original size/html5-logo-8.png" alt="HTML5"> <p>HTML5</p> </li>
+                            <li><img src="./images/logos original size/css.webp" alt="CSS"> <p>CSS3</p> </li>
+                            <li><img src="./images/logos original size/javascript_logo.png" alt="JavaScript"> <p>JavaScript</p> </li>
+                        </ul>
+                    </div>
+                    <div class="others">
+                        <h3>Otros de interés</h3>
+                        <p>Creación de ETL, despliegues en Bach, inferencia online, escalabilidad, dockerización, etc.</p>
+                        <ul class="other-list">
+                            <li><img src="./images/logos original size/docker-logo.png" alt="Docker"> <p>Docker</p> </li>
+                            <li><img src="./images/logos original size/hosting_google.png" alt="GCP"> <p>GCP</p> </li>
+                            <li><img src="./images/logos original size/awscloud.svg" alt="AWS"> <p>AWS</p> </li>
+                            <li><img src="./images/logos original size/nifi.png" alt="Apache NiFi"> <p>Apache NiFi</p> </li>
+                            <li><img src="./images/logos original size/beam.png" alt="Apache Beam"> <p>Apache Beam</p> </li>
+                            <li><img src="./images/logos original size/kafka.png" alt="Apache Kafka"> <p>Apache Kafka</p> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="portfolio">
+            <h2>Proyectos</h2>
+            <p>
+                Algunos de los proyectos propios o proyectos hechos dentro del Bootcamp.
+                <br> Más proyectos en mi perfil de <a href="https://github.com/tonyzetag" target="_blank" k rel="noopener noreferrer">GitHub</a> <br>
+            </p>
+            <ul class="portfolio-list">
+                <li id="portfolio-item-1" class="portfolio-item">
+                    <a href="https://gitlab.com/tonyzetag/datamuffin_project" target="_blank" rel="noopener noreferrer">
+                        <div class="proyect-overlay">
+                            <img src="https://i.ytimg.com/vi/mE4BOrXWWxo/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAToV4wUj5mHQ5r2st7HpFUz4GYqg" alt="proyecto 1">
+                            <span>
+                                <h3>Trabajo Final de Bootcamp</h3>
+                                <p> 
+                                    Web-App desarrollada en Python, Flask, HTML, JS y D3, postgeSQL, 
+                                    dockerizada, y desplegada con Google Cloud Platform.
+                                </p>
+                            </span>
+                        </div>
+                    </a>
+                </li>
+                <li id="portfolio-item-2" class="portfolio-item">
+                    <a href="https://github.com/tonyzetag/Practica-ML-y-DL-Airbnb" target="_blank" rel="noopener noreferrer">
+                        <div class="proyect-overlay">
+                            <img src="./images/projects/airbnb.png" alt="proyecto 2">
+                            <span>
+                                <h3>Practica ML & DL - Airbnb</h3>
+                                <p> 
+                                    Realización de un proyecto completo de Ingeniería de datos y 
+                                    Ciencia de datos aplicados para predecir el precio 
+                                    de una vivienda.
+                                </p>
+                            </span>
+                        </div>
+                    </a> 
+                </li>
+                <li id="portfolio-item-3" class="portfolio-item">
+                    <a href="https://github.com/tonyzetag/Practica-NLP" target="_blank" rel="noopener noreferrer">
+                        <div class="proyect-overlay">
+                            <img src="./images/projects/NLP.jpg" alt="proyecto 3">
+                            <span>
+                                <h3>Practica NLP - Análisis de sentimiento</h3>
+                                <p> 
+                                    Realización de un proyecto de NLP con diferentes
+                                    estrategias (Tokenizado, Normalizado, Stop-Words, 
+                                    Stemming, Lemmatization, Skip-Gram, CBOW, etc.)
+                                </p>
+                            </span>
+                        </div>
+                    </a>         
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer id="contact">
+        <div class="footer-overlay"></div>
+        <div class="footer-content">
+            <div class="links">
+                <p>Contáctame</p>
+                <ul>
+                    <li>
+                        <a href="https://www.linkedin.com/in/tonyzetag/" target="_blank" k rel="noopener noreferrer">
+                            <label for="link-1">LinkedIn</label>
+                            <img src="./images/Links/logo-linkedin-icon-512.png" alt="Link 1" name="link-1"> 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/tonyzetag" target="_blank" rel="noopener noreferrer">
+                            <label for="link-2">GitHub</label>
+                            <img id="github" src="./images/Links/GitHub_logo.png" alt="Link 2" name="link-2"> 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:tonyzetag@outlook.com" target="_blank" rel="noopener noreferrer">
+                            <label for="link-3">Mail</label>
+                            <img src="./images/Links/outlook.png" alt="Link 3" name="link-3"> 
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

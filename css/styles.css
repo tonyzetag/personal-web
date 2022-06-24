@@ -1,0 +1,21 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    font-family: 'Nunito', sans-serif, Arial, Helvetica;
+    font-weight: 400;
+    color: var(--dark-color);
+}
+
+/* links */
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+body {
+    position: relative;
+    top:0;
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+}
