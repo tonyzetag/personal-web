@@ -246,4 +246,16 @@
         </div>
     </footer>
 </body>
+<script>
+    const links = document.querySelectorAll('.navbar-item a')
+    const checkbox = document.querySelector('.navbar input[type=checkbox]')
+
+    for ( const link of links ) {
+        link.onclick = handleClick
+    }
+
+    function handleClick() {
+        checkbox.checked = false
+    }
+</script>
 </html>
