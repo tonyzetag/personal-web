@@ -2,7 +2,7 @@
 
 /* Level 1 */
 nav {
-    position: sticky;
+    position: fixed;
     top: 0;
     width: 100%;
     background-color: var(--dark-color);
@@ -106,24 +106,25 @@ nav {
 
     .navbar-list { 
         display: flex;
+        justify-content: space-evenly;
+        transform: translateX(-100vw);
         margin: 0;
-        margin-left: 1rem;
-        font-size: 2rem;
-        margin-top: -500vh;
-    }
-
-    .navbar-list { 
-        transform: translateX(-100vh);
-        margin-top: 0rem;
+        margin-top: -5vh;
+        
+        padding-left: 1rem;
+        padding-bottom: 1rem;
         height: 0vh;
-        transition: height 0.5s, transform 0.5s;
+        transition: all .5s ease;
+        background-color: var(--dark-color);
+        font-size: 1.5rem;
+        z-index: -5;
     }
 
     .navbar input:checked ~ .navbar-list {
-        transform: translateX(0vh);
-        margin-top: 0rem;
-        height: 100vh;
-        transition: height 0.5s, transform 0.5s;
+        transform: translateX(0vw);
+        margin-top: 5vh;
+        height: 40vh;
+        transition: all .5s ease;
     }
 
     .navbar-item {
@@ -132,13 +133,7 @@ nav {
     }
 
     .navbar-item:hover {
-        letter-spacing: 0.5rem;
-        transition: letter-spacing 0.5s;
+        letter-spacing: 0.25rem;
+        transition: letter-spacing 0.25s;
     }
-
-    .navbar-item:active ~ .navbar input{
-        height: 0vh;
-        margin-top: -500vh;
-    }
-
 }

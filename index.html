@@ -24,7 +24,7 @@
             <label for="menu-btn-input"></label>
             <li class="navbar-item"><a href="#home">Inicio</a></li>
             <li class="navbar-item"><a href="#about">Sobre mi</a></li>
-            <li class="navbar-item"><a href="#skills">Servicios</a></li>
+            <li class="navbar-item"><a href="#skills">Habilidades</a></li>
             <li class="navbar-item"><a href="#portfolio">Proyectos</a></li>
             <li class="navbar-item"><a href="#contact">Contacto</a></li>
         </ul>
@@ -247,15 +247,25 @@
     </footer>
 </body>
 <script>
-    const links = document.querySelectorAll('.navbar-item a')
-    const checkbox = document.querySelector('.navbar input[type=checkbox]')
+    const links = document.querySelectorAll('.navbar-item a');
+    const navbarList = document.querySelector('.navbar-list');
+    const checkbox = document.querySelector('.navbar input[type=checkbox]');
+    const allElements = document.querySelector('main');
+
+    navbarList.onclick = handleClick;
 
     for ( const link of links ) {
-        link.onclick = handleClick
+        link.onclick = handleClick;
     }
 
+    allElements.addEventListener('click', function() {
+        if (checkbox.checked) {
+            allElements.onclick = handleClick;
+        }
+    });
+
     function handleClick() {
-        checkbox.checked = false
+        checkbox.checked = false;
     }
 </script>
 </html>
